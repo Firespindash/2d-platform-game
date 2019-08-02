@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <title>2d Platform Game</title>
+    <style>
+        body {
+          margin: 0; padding: 0;
+          font-family: 'Roboto', sans-serif;
+          font-style: normal;
+          text-decoration: none;
+        }
+        h1 {
+          font-weight: 200;
+          font-size: 50px;
+          color: #424242;
+          text-align: center;
+          line-height: 2rem;
+        }
+        canvas {
+            border: 1px solid #d3d3d3;
+            background-color: #f1f1f1;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        div {
+          border: 1px solid #007b83;
+          border-radius: 10px;
+          background-color: #e0eff0;
+          text-align: center;
+          width: 200px;
+          height: 250px;
+          position: absolute;
+          left: 95%;
+          top: 50%;
+          transform: translate(-95%, -50%);
+        }
+        span {
+          text-align: center;
+          font-weight: bolder;
+          color: #007b83;
+          margin: 0; padding: 0;
+          padding-top: 20px;
+        }
+        h3 {
+          font-weight: bold;
+          font-size: 20px;
+          color: #007b83;
+          margin: 0; padding: 0;
+        }
+        hr {
+          margin: 0; padding: 0;
+        }
+        h4 {
+          text-align: center;
+          font-weight: bold;
+          font-size: 15px;
+          color: #424242;
+          margin: 0; padding: 0;
+          padding-top: 15px;
+        }
+        p {
+          font-weight: 400;
+          text-align: center;
+          color: #107f89;
+          margin: 0; padding: 0;
+          padding-top: 20px;
+        }
+        @media (max-width: 1000px) {
+          div {
+            display: none;
+          }
+        }
+    </style>
+  </head>
+  <body>
+    <h1>Micro 2D Platform Game</h1>
+    <canvas id="canvas" width="640" height="480"></canvas>
+    <div class="info">
+      <h3>Controls</h3>
+      <hr>
+      <h4>Actions: Buttons</h4>
+      <p><span>Walk Right:</span> Right Arrow</p>
+      <p><span>Walk Left:</span> Left Arrow</p>
+      <p><span>Jump:</span> Space Bar</p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
