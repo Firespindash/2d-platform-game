@@ -3,12 +3,12 @@ A huge simple 2d platform game example made with native javascript.
 
 ![Screenshot](game-screenshot.png)
 
-Also the protagonist has jelly physics, and the different colored platforms have different physics.
-And the staircase has a cool physics, try it. ;)
+The character has jelly physics, and the different colored platforms have different effects.
+And the staircase is cool, just try it!
 
-Your objective is huge simple, you just need to get to the castle.
+Your objective is pretty simple, you just need to get to the castle.
 
-The controls are:
+Controls:
 
 * Right Arrow - Walk Right
 * Left Arrow - Walk left
