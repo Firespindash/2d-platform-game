@@ -1,5 +1,6 @@
 # 2d-platform-game
 A huge simple 2d platform game example made with native javascript.
+You can test [here](https://firespindash.github.io/2d-platform-game/) 
 
 ![Screenshot](game-screenshot.png)
 
